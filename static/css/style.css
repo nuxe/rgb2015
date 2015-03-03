@@ -951,9 +951,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   color: #2c3e50;
 }
 .header-8-sub .background {
-  margin-left:5%;
-  margin-right:5%;
-  background-image: url("../../startup/common-files/img/InnoD_RGB_characters.png");
+
+  background-image: url("../../startup/common-files/img/banner.png");
   background-position: 50% 0;
   opacity: 100;
   filter: alpha(opacity=10000);
