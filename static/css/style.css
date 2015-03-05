@@ -988,8 +988,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Content 4 stylesheet  
  * */
 .content-4 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 .content-4 h3 {
