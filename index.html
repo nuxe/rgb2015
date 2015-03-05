@@ -14,9 +14,12 @@
         <link rel="stylesheet" href="startup/flat-ui/css/flat-ui.css">
         <!-- Using only with Flat-UI (free)-->
         <link rel="stylesheet" href="startup/common-files/css/icon-font.css">
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
         <!-- end -->
         <link rel="stylesheet" href="startup/common-files/css/animations.css">
         <link rel="stylesheet" href="static/css/style.css">
+         <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
         
         <title></title>
     </head>
@@ -47,7 +50,7 @@
                     <a class="brand" href="#">RGB 2015</a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav">
+                    <ul class="nav" id="nav-bar">
                         <li><a href="#about">About</a></li>
                         <li><a href="#speakers">Speakers</a></li>
                         <li><a href="#schedule">Schedule</a></li>
@@ -61,21 +64,19 @@
 </header>
        
 
-<section class="content-19" id="about" style="margin-top:50px; padding-top:50px; padding-bottom:50px;">
+<section class="content-19" id="about" style="margin-top:30px; padding-top:30px; padding-bottom:50px;">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-8">
                 <div class="quote">
                     <div class="quote-text">
-                        RGB is a one-day crash course in design &amp; photography! 
-                        <p style="font-size:20px; margin-top:30px;">Featuring workshops in design thinking and techniques, talks led by industry guests, cash prizes, and catering. </p>
+                        RGB is a workshop-based, one-day, educational event held annually at the University of California, Berkeley. 
+
+                       
+                        <p style="font-size:20px; margin-top:30px;">Participants learn about essential design and photography skills, career oppotunities, and philosophies through workshops led by industry professionals. </p><p>
+                        At the end of the event, every participant is expected to produce a piece of original work that demonstrates the utilization of skills acquired from the workshops. Workshop leaders are invited to provide feedback after participants’ project presentations and award outstanding pieces. RGB aims to provide learning, practicing, and networking opportunities for Berkeley students and design and photography professionals. <em>We would love to have you join us.</em></p>
                     </div>
-                    <div class="quote-author">
-                        <div class="quote-author-photo"></div>
-                        <div class="quote-author-name">
-                            HOSTED BY INNOVATIVE DESIGN @ CAL 
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-sm-3 col-sm-offset-1">
@@ -113,27 +114,28 @@
     </div>
 </section>
 
-<section class="content-4" style="background-color:#739BBF;">
+<section class="content-4" style="background-color:#52a3ea;">
     <div class="container">
     
         <div class="row features" style="text-align:center;">
             <div class="col-md-4">
                
                 <img src="startup/common-files/icons/Watches@2x.png" alt="" width="130" height="130" style="margin-bottom:10%;">
-                <h6>March 14, 2015</h6>
-                <h6>10am - 6pm</h6>
+                <h6 style="font-weight:700;">March 14, 2015</h6>
+                <h6 style="font-weight:700;">10am - 6pm</h6>
 
    
             </div>
             <div class="col-md-4">
                 <img src="startup/common-files/icons/Map@2x.png" alt="" width="130" height="130" style="margin-bottom:10%;"><br><br>
-                <h6>Sutardja Dai Hall, UC Berkeley</h6>
+                <h6 style="font-weight:700;">Sutardja Dai Hall, UC Berkeley</h6>
 
          
             </div>
             <div class="col-md-4">
                 <img src="startup/common-files/icons/Card@2x.png" width="130" height="130" style="margin-bottom:15%;">
-                <h6>Get your tickets on <a target="_blank" href="http://rgb15.eventbrite.com/">Eventbrite!</a></h6>
+                <h6 style="font-weight:700;">Get your tickets on now</h6>
+                <h6 style="font-weight:700;"> <a target="_blank" href="http://rgb15.eventbrite.com/">Eventbrite!</a></h6>
 
                 
             </div>
@@ -141,70 +143,32 @@
     </div>
 </section>
 
-
-    <section class="crew-2" id="speakers">
+<section class="crew-1">
     <div class="container">
-        <h3>Speakers</h3>
+        <h3 style="font-weight:500; margin-bottom:5%;">Speakers</h3>
 
         <div class="members">
             <div class="member-wrapper">
                 <div class="member">
-                    <a href="http://luke.so/" target="blank:">
                     <div class="photo-wrapper">
-                        <div class="photo" style="width: 540px;
-height: 300px;"><img src="startup/common-files/img/projects/LukeBeard.png"  alt=""></div>
-                        <div class="name">Luke Beard</div></a>
-                        
+                        <div class="photo"><img src="startup/common-files/img/projects/LukeBeard.png" alt=""></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
                     </div>
                     <div class="info">
+                        <div class="name">Luke Beard</div>
                         Co-founder at Exposure
-
-                        
                     </div>
                 </div>
             </div>
 
             <div class="member-wrapper">
                 <div class="member">
-                    <a href="http://stem-design.com/about/" target="blank:">
-                    <div class="photo-wrapper">
-                        <div class="photo"><img src="startup/common-files/img/projects/RoseannStempinski.jpg" alt=""></div>
-                        <div class="name">Roseann Stempinski</div></a>
-                        <div class="position"></div>
-                    </div>
-                    <div class="info">
-                        Experience Designer at Stem Design
-                    </div>
-                </div>
-            </div>
-
-            <div class="member-wrapper">
-                <div class="member">
-                    <a href="http://moiz.ca/" target="blank:">
-                    <div class="photo-wrapper">
-                        <div class="photo"><img src="startup/common-files/img/projects/MoizSyed.jpeg" alt=""></div>
-                        <div class="name">Moiz Syed</div></a>
-                        <div class="position"></div>
-                    </div>
-                    <div class="info">
-                        UX Designer, Wikimedia Foundation
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="members">
-            <div class="member-wrapper" style="
-    padding-left: 10%;">
-                <div class="member">
-                    <a href="http://blog.carbonfive.com/author/dhendee/" target="blank:">
                     <div class="photo-wrapper">
                         <div class="photo"><img src="startup/common-files/img/projects/DavidHendee.jpg" alt=""></div>
-                        <div class="name">David Hendee</div></a>
-                        <div class="position"></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
                     </div>
                     <div class="info">
+                        <div class="name">David Hendee</div>
                         Director of Design, CarbonFive
                     </div>
                 </div>
@@ -212,27 +176,62 @@ height: 300px;"><img src="startup/common-files/img/projects/LukeBeard.png"  alt=
 
             <div class="member-wrapper">
                 <div class="member">
-                    <a href="http://marywharmby.com/" target="blank:">
                     <div class="photo-wrapper">
-                        <div class="photo"><img src="startup/common-files/img/projects/MaryWharmby.jpg" alt=""></div>
-                        <div class="name">Mary Wharmby</div></a>
-                        <div class="position"></div>
+                        <div class="photo"><img src="startup/common-files/img/projects/MoizSyed.jpeg" alt=""></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
                     </div>
                     <div class="info">
-                        UX Design Director, Spring Studio
+                        <div class="name">Moiz Syed</div>
+                         UX Designer, Wikimedia Foundation
 
-                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="startup/common-files/img/projects/RoseannStempinski.jpg" alt=""></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Roseann Stempinski</div>
+                        Experience Designer at Stem Design
                     </div>
                 </div>
             </div>
 
-            
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="startup/common-files/img/projects/MaryWharmby.jpg" alt=""></div>
+                        <div class="overlay"><span class="fui-eye"></span></div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Mary Wharmby</div>
+                        UX Design Director, Spring Studio
+                    </div>
+                </div>
+            </div>
 
-
+            <div class="member-wrapper">
+                <div class="member">
+                    
+                    <div class="info">
+                        <div class="name"></div>
+                     
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--/.container-->
-</section>
+</section> 
+
+
+    
 
    <section class="content-31" id="schedule">
      <center><h3 style="font-weight:500; margin-bottom:5%;">Schedule</h3></center>
@@ -527,6 +526,18 @@ height: 300px;"><img src="startup/common-files/img/projects/LukeBeard.png"  alt=
     </div>
     <!--/.container-->
 </section>           <!-- Placed at the end of the document so the pages load faster -->
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+            <script> 
+
+            $('a').click(function() {
+              $('html, body').animate({
+                  scrollTop: $( $.attr(this, 'href') ).offset().top
+              }, 400);
+              return false;
+            });
+
+
+            </script>
             <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
             <script src="startup/common-files/js/jquery.bxslider.min.js"></script>
             <script src="startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
