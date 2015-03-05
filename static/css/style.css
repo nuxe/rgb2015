@@ -1664,7 +1664,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transition: 0.6s background-color;
 }
 .content-31 .container .active > .number {
-  background: #1abc9c;
+  background: #52a3ea;
 }
 .content-31 .container .box {
   margin-top: 70px;
@@ -1701,7 +1701,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   filter: alpha(opacity=100);
 }
 .content-31 .container .active h3 {
-  color: #1abc9c;
+  color: #52a3ea;
 }
 .content-31 .container .active .img img:first-child {
   opacity: 0;
