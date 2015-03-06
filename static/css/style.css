@@ -12,6 +12,7 @@ body {
 input,
 button,
 select,
+
 textarea {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -883,6 +884,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   top: 0 !important;
 }
 .header-8 .navbar .brand {
+  font-family:"GothamRnd-Medium";
   padding-top: 18px;
   font-size: 25px;
   font-weight: normal;
@@ -910,12 +912,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin-left: 0;
 }
 .header-8 .navbar .nav > li > a {
+  font-family:"GothamRnd-Book";
   padding: 30px 0 22px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
   color: #7f8c8d;
   font-weight: 700;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #A12F31;
 }
 .header-8 .navbar .nav > li > a:hover,
