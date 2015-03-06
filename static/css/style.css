@@ -2205,7 +2205,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   filter: alpha(opacity=100);
 }
 .crew-1 .members .member:hover .name {
-  color: #1abc9c;
+  color: #89e36a;
 }
 @media (max-width: 767px) {
   .crew-1 .members {
